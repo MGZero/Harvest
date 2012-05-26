@@ -1,0 +1,669 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Data Structures">
+      <UniqueIdentifier>{f18024c0-3e64-4df7-9f32-3be8d1ff2f0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity">
+      <UniqueIdentifier>{f19e3873-2d12-476f-a4a8-6640cb3f8b27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity\AI">
+      <UniqueIdentifier>{ea0ff196-d55c-4395-b013-5dbea7031d0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity\Physical Ent">
+      <UniqueIdentifier>{ba5559a3-ac1b-4684-bc76-c96c265f7ca6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity\Physical Ent\CBaseBush">
+      <UniqueIdentifier>{6420305d-6c85-40e8-bd6c-163e4e661181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity\Physical Ent\CBaseNPC">
+      <UniqueIdentifier>{de2578d7-7252-4201-b99d-3074030d3f82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity\Physical Ent\CBaseNPC\CLinkCousin">
+      <UniqueIdentifier>{94c6bca1-47d7-42ac-bc07-64e1bfa8bfd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity\Physical Ent\CBaseNPC\CNPCDemo">
+      <UniqueIdentifier>{6271b05f-ce3e-4cf4-838d-37825126cc09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity\Physical Ent\CBaseNPC\CNPCTest">
+      <UniqueIdentifier>{4fb1286e-9d66-49ab-87f2-0ec6afff53a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity\Physical Ent\CBasePlayer">
+      <UniqueIdentifier>{616e4a73-d56b-4103-ba83-945e4e110be7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity\Physical Ent\CBaseWater">
+      <UniqueIdentifier>{16a5ed69-d025-4125-81ad-432c84a4551b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity\Restricted Ent">
+      <UniqueIdentifier>{8b93b4d2-da49-4a76-8641-87c22e4c8711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity\TheoreticalEnt">
+      <UniqueIdentifier>{daa4f8c1-f8b5-423a-8940-14c5cc7cf26a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity\TheoreticalEnt\CBaseCounter">
+      <UniqueIdentifier>{c1b7460a-d3ae-46b0-bec4-63613b4f1ab3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity\TheoreticalEnt\CBaseSound">
+      <UniqueIdentifier>{eb135ec9-d81e-49f4-b871-101e9646b560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity\TheoreticalEnt\CLinkedList">
+      <UniqueIdentifier>{eb831068-96e9-4c8a-827b-4b150bcd70e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity\TheoreticalEnt\CTitleScreen">
+      <UniqueIdentifier>{03612a2e-1167-48fa-96a0-0f2502cf8885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity\TheoreticalEnt\CBaseText">
+      <UniqueIdentifier>{40bdac50-0841-4d26-aff3-3362ff4de48e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\events">
+      <UniqueIdentifier>{68cd8743-c4e7-4430-a3cf-1ac742001118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\File Formats">
+      <UniqueIdentifier>{f469c17e-1764-4e29-b40e-e369652572c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\File Formats\CHK">
+      <UniqueIdentifier>{2ef3a609-2168-4160-97a4-f04be4abf8be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\File Formats\DBG">
+      <UniqueIdentifier>{d66745b8-9d2b-4e61-90da-8c13aab01fee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\File Formats\HED">
+      <UniqueIdentifier>{96e876e7-c68c-4b2f-a220-0e935f16ed44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\File Formats\HMD">
+      <UniqueIdentifier>{9aa915a7-0781-494f-a24b-8daf7e85207d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\File Formats\HS">
+      <UniqueIdentifier>{5bf3dd0e-7679-4f86-9630-37795e34f292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\File Formats\HMD 3.0">
+      <UniqueIdentifier>{f1d9296b-f980-4537-8033-cab7cd30f54e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\File Formats\HRC">
+      <UniqueIdentifier>{4069a10c-43b3-44b0-a4b6-7ff418aa86be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\File Formats\HCF">
+      <UniqueIdentifier>{8e0626b0-34d2-4a27-8427-7e4cbe00369f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FMod">
+      <UniqueIdentifier>{b6268dc4-e61b-4172-9ae0-d9e70a8527be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game logic">
+      <UniqueIdentifier>{36aebf85-db9e-4afa-be4a-b3abb6513fb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GL">
+      <UniqueIdentifier>{beaf9ac4-2123-4736-a217-a90b091ca8ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GL\new stuff">
+      <UniqueIdentifier>{9261af71-4a64-4f37-a047-34220789a311}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\math">
+      <UniqueIdentifier>{23bb2f2c-634a-4c64-890a-81d2f8399ead}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\phys">
+      <UniqueIdentifier>{f205aac1-3e94-4c6b-ab20-81a66449b379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\time">
+      <UniqueIdentifier>{bab5a041-442f-4f7e-9f47-f29e0d25b5cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resources">
+      <UniqueIdentifier>{5d37d460-9891-485d-8e77-7d5f0dc2f253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Triggers">
+      <UniqueIdentifier>{7ad1eca6-00ac-4323-a11b-ece500b64c98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Data Structures">
+      <UniqueIdentifier>{b23eea3e-9f26-45a0-8430-eaf32400b719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity">
+      <UniqueIdentifier>{52c3a878-3f0d-4051-89b6-9e597aef691f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity\AI">
+      <UniqueIdentifier>{b778b874-9400-4b19-8bef-cf75d5d53dd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity\Theoretical Ent">
+      <UniqueIdentifier>{eed5241b-9ce2-4a93-b62e-270eaf6f4307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity\Theoretical Ent\CBaseCounter">
+      <UniqueIdentifier>{7bcaa1ed-7bfb-4097-a9a5-e843bd5eea2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity\Theoretical Ent\CBaseSound">
+      <UniqueIdentifier>{979eb9ba-9096-44f5-9f68-22a5c0548673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity\Theoretical Ent\CLinkedList">
+      <UniqueIdentifier>{c05878ea-3303-4a7f-87a5-9bb5ab3e41b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity\Theoretical Ent\CTitleScreen">
+      <UniqueIdentifier>{656e0676-b59b-4d05-9186-e4de3fcb30b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity\Theoretical Ent\CBaseText">
+      <UniqueIdentifier>{5b12e583-b5ef-4f10-b366-0751edef26fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity\Theoretical Ent\Map Mangement">
+      <UniqueIdentifier>{70344663-5369-4a92-823f-3c68bc27a165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity\Restricted Ent">
+      <UniqueIdentifier>{0fa13e3b-98de-4d1c-b18c-a815b60db092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity\Physical Ent">
+      <UniqueIdentifier>{dda66a9d-c3bb-4848-ab0c-0a3072848570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity\Physical Ent\CBaseBush">
+      <UniqueIdentifier>{f5de962b-85c2-454f-b1e4-f16efedfd1b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity\Physical Ent\CBaseMenu">
+      <UniqueIdentifier>{b1eb7045-bfe3-462d-a6ea-cf1d31eaa6e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity\Physical Ent\CBaseNPC">
+      <UniqueIdentifier>{97602820-63a5-4209-8220-08448de9b8bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity\Physical Ent\CBaseNPC\CLinkCousin">
+      <UniqueIdentifier>{78a4f01b-b6f2-4b9b-a70b-66047d28d296}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity\Physical Ent\CBaseNPC\CNPCDemo">
+      <UniqueIdentifier>{ab05ef2c-86f5-4bc3-853f-e8cb2788d5e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity\Physical Ent\CBaseNPC\testNPC">
+      <UniqueIdentifier>{ac84d80f-2d05-4ef1-89bd-91a364c93117}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity\Physical Ent\CBasePlayer">
+      <UniqueIdentifier>{5e8f3bc9-8dc9-49d0-9cc5-2090cc2c6b03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity\Physical Ent\CBaseWater">
+      <UniqueIdentifier>{61a9b4c1-055e-43a1-9664-e534a566c748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\events">
+      <UniqueIdentifier>{1fe15d70-f7ae-4bd0-bdcf-2534f4c32fc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\file formats">
+      <UniqueIdentifier>{cc713aa4-ee21-410b-8440-f9f2d87abf33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\file formats\CHK">
+      <UniqueIdentifier>{ad91edd6-5c22-4765-8a38-9b5040861509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\file formats\DBG">
+      <UniqueIdentifier>{59b54450-f7ad-47d1-a198-50e8c8785aaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\file formats\HED">
+      <UniqueIdentifier>{49bb778e-309e-4188-85aa-3b696faf3a50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\file formats\HMD">
+      <UniqueIdentifier>{21c345ef-3843-414f-991e-f4ae539a2db7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\file formats\HS">
+      <UniqueIdentifier>{d0a01156-b4e9-4747-9ed4-3ada6c40b5dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\file formats\HMD 3.0">
+      <UniqueIdentifier>{b8c8b8b5-2a9c-46d9-9144-94434c17db11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\file formats\HCF">
+      <UniqueIdentifier>{3dfbbf18-cbb6-49e6-9bef-da2c9b60c519}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FMod">
+      <UniqueIdentifier>{70021031-73cb-46dc-a5bd-482c74455500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Logic">
+      <UniqueIdentifier>{f8a7ba2b-8160-4619-90d5-b920889dd625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GL">
+      <UniqueIdentifier>{8b8bbfcc-5b37-4792-8aad-684c6987c5ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GL\new stuff">
+      <UniqueIdentifier>{f92457a2-d95c-47b9-b362-5fab2de61de0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\math">
+      <UniqueIdentifier>{bd501f75-bb33-4165-9d5e-a32d8f8a0729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\phys">
+      <UniqueIdentifier>{94535b6e-2737-4cf7-947c-e408010fd59f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\time">
+      <UniqueIdentifier>{e0bfcf08-31e4-4643-9e37-43134f441902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\resources">
+      <UniqueIdentifier>{42e808fa-9d55-4444-99a5-b231930555ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\triggers">
+      <UniqueIdentifier>{8872dd48-b7cc-4bc9-b9f2-4f88d55788ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Exceptions">
+      <UniqueIdentifier>{f2850aca-81a5-4c7b-a929-4a58ee8b2041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Exceptions\IO">
+      <UniqueIdentifier>{89d0036e-4815-4456-9e76-1dfca9b35ec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Exceptions\Entity">
+      <UniqueIdentifier>{a6b6dfac-3adb-4d9a-86cf-6fed4ea6a812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="global_Objects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="linkedlist.cpp">
+      <Filter>Source Files\Data Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="queue.cpp">
+      <Filter>Source Files\Data Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="physicalent.cpp">
+      <Filter>Source Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="restrictedent.cpp">
+      <Filter>Source Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="theoreticalEnt.cpp">
+      <Filter>Source Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="AI.cpp">
+      <Filter>Source Files\Entity\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseBush.cpp">
+      <Filter>Source Files\Entity\Physical Ent\CBaseBush</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseNPC.cpp">
+      <Filter>Source Files\Entity\Physical Ent\CBaseNPC</Filter>
+    </ClCompile>
+    <ClCompile Include="CLinkCousin.cpp">
+      <Filter>Source Files\Entity\Physical Ent\CBaseNPC\CLinkCousin</Filter>
+    </ClCompile>
+    <ClCompile Include="CNPCDemo.cpp">
+      <Filter>Source Files\Entity\Physical Ent\CBaseNPC\CNPCDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="CNPCTest.cpp">
+      <Filter>Source Files\Entity\Physical Ent\CBaseNPC\CNPCTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CBasePlayer.cpp">
+      <Filter>Source Files\Entity\Physical Ent\CBasePlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseWater.cpp">
+      <Filter>Source Files\Entity\Physical Ent\CBaseWater</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseCamera.cpp">
+      <Filter>Source Files\Entity\Restricted Ent</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseDebugger.cpp">
+      <Filter>Source Files\Entity\Restricted Ent</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseEntCom.cpp">
+      <Filter>Source Files\Entity\Restricted Ent</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseMapIterator.cpp">
+      <Filter>Source Files\Entity\TheoreticalEnt</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseMapManager.cpp">
+      <Filter>Source Files\Entity\TheoreticalEnt</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseCounter.cpp">
+      <Filter>Source Files\Entity\TheoreticalEnt\CBaseCounter</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseSound.cpp">
+      <Filter>Source Files\Entity\TheoreticalEnt\CBaseSound</Filter>
+    </ClCompile>
+    <ClCompile Include="CSFX.cpp">
+      <Filter>Source Files\Entity\TheoreticalEnt\CBaseSound</Filter>
+    </ClCompile>
+    <ClCompile Include="CLinkedList.cpp">
+      <Filter>Source Files\Entity\TheoreticalEnt\CLinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="CTitleScreen.cpp">
+      <Filter>Source Files\Entity\TheoreticalEnt\CTitleScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseText.cpp">
+      <Filter>Source Files\Entity\TheoreticalEnt\CBaseText</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseTextTrigger.cpp">
+      <Filter>Source Files\Entity\TheoreticalEnt\CBaseText</Filter>
+    </ClCompile>
+    <ClCompile Include="CMessage.cpp">
+      <Filter>Source Files\Entity\TheoreticalEnt\CBaseText</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseEventTrigger.cpp">
+      <Filter>Source Files\events</Filter>
+    </ClCompile>
+    <ClCompile Include="events.cpp">
+      <Filter>Source Files\events</Filter>
+    </ClCompile>
+    <ClCompile Include="chk.cpp">
+      <Filter>Source Files\File Formats\CHK</Filter>
+    </ClCompile>
+    <ClCompile Include="DBG.cpp">
+      <Filter>Source Files\File Formats\DBG</Filter>
+    </ClCompile>
+    <ClCompile Include="HED.cpp">
+      <Filter>Source Files\File Formats\HED</Filter>
+    </ClCompile>
+    <ClCompile Include="CEntInfo.cpp">
+      <Filter>Source Files\File Formats\HMD</Filter>
+    </ClCompile>
+    <ClCompile Include="CEntRelation.cpp">
+      <Filter>Source Files\File Formats\HMD</Filter>
+    </ClCompile>
+    <ClCompile Include="CLayer.cpp">
+      <Filter>Source Files\File Formats\HMD</Filter>
+    </ClCompile>
+    <ClCompile Include="CLayerX.cpp">
+      <Filter>Source Files\File Formats\HMD</Filter>
+    </ClCompile>
+    <ClCompile Include="HMD.cpp">
+      <Filter>Source Files\File Formats\HMD</Filter>
+    </ClCompile>
+    <ClCompile Include="command.cpp">
+      <Filter>Source Files\File Formats\HS</Filter>
+    </ClCompile>
+    <ClCompile Include="CContentStream.cpp">
+      <Filter>Source Files\File Formats\HMD 3.0</Filter>
+    </ClCompile>
+    <ClCompile Include="CDataStream.cpp">
+      <Filter>Source Files\File Formats\HMD 3.0</Filter>
+    </ClCompile>
+    <ClCompile Include="CInternal.cpp">
+      <Filter>Source Files\File Formats\HMD 3.0</Filter>
+    </ClCompile>
+    <ClCompile Include="CLayer3_0.cpp">
+      <Filter>Source Files\File Formats\HMD 3.0</Filter>
+    </ClCompile>
+    <ClCompile Include="CMapManager.cpp">
+      <Filter>Source Files\File Formats\HMD 3.0</Filter>
+    </ClCompile>
+    <ClCompile Include="HMD3.0.cpp">
+      <Filter>Source Files\File Formats\HMD 3.0</Filter>
+    </ClCompile>
+    <ClCompile Include="CFileData.cpp">
+      <Filter>Source Files\File Formats\HCF</Filter>
+    </ClCompile>
+    <ClCompile Include="CHCF.cpp">
+      <Filter>Source Files\File Formats\HCF</Filter>
+    </ClCompile>
+    <ClCompile Include="fmodMain.cpp">
+      <Filter>Source Files\FMod</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseHitBox.cpp">
+      <Filter>Source Files\game logic</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseTimer.cpp">
+      <Filter>Source Files\game logic</Filter>
+    </ClCompile>
+    <ClCompile Include="CFrameTrigger.cpp">
+      <Filter>Source Files\game logic</Filter>
+    </ClCompile>
+    <ClCompile Include="logic.cpp">
+      <Filter>Source Files\game logic</Filter>
+    </ClCompile>
+    <ClCompile Include="glMain.cpp">
+      <Filter>Source Files\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="inputManager.cpp">
+      <Filter>Source Files\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite_state.cpp">
+      <Filter>Source Files\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimationX.cpp">
+      <Filter>Source Files\GL\new stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpriteStateX.cpp">
+      <Filter>Source Files\GL\new stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpriteX.cpp">
+      <Filter>Source Files\GL\new stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="CTileSheetX.cpp">
+      <Filter>Source Files\GL\new stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="HVSTMTH.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="HVSTPHYS.cpp">
+      <Filter>Source Files\phys</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseTime.cpp">
+      <Filter>Source Files\time</Filter>
+    </ClCompile>
+    <ClCompile Include="CResources.cpp">
+      <Filter>Source Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollisionTrigger.cpp">
+      <Filter>Source Files\Triggers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="global_Objects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dictionary.h">
+      <Filter>Header Files\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="graph.h">
+      <Filter>Header Files\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="linkedlist.h">
+      <Filter>Header Files\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="list.h">
+      <Filter>Header Files\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>Header Files\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="queue.h">
+      <Filter>Header Files\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicalEnt.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="restrictedent.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="theoreticalEnt.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="AI.h">
+      <Filter>Header Files\Entity\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseCounter.h">
+      <Filter>Header Files\Entity\Theoretical Ent\CBaseCounter</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseSound.h">
+      <Filter>Header Files\Entity\Theoretical Ent\CBaseSound</Filter>
+    </ClInclude>
+    <ClInclude Include="CSFX.h">
+      <Filter>Header Files\Entity\Theoretical Ent\CBaseSound</Filter>
+    </ClInclude>
+    <ClInclude Include="CLinkedList.h">
+      <Filter>Header Files\Entity\Theoretical Ent\CLinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="CTitleScreen.h">
+      <Filter>Header Files\Entity\Theoretical Ent\CTitleScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseText.h">
+      <Filter>Header Files\Entity\Theoretical Ent\CBaseText</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseTextTrigger.h">
+      <Filter>Header Files\Entity\Theoretical Ent\CBaseText</Filter>
+    </ClInclude>
+    <ClInclude Include="CMessage.h">
+      <Filter>Header Files\Entity\Theoretical Ent\CBaseText</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseMapIterator.h">
+      <Filter>Header Files\Entity\Theoretical Ent\Map Mangement</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseMapManager.h">
+      <Filter>Header Files\Entity\Theoretical Ent\Map Mangement</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseCamera.h">
+      <Filter>Header Files\Entity\Restricted Ent</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseDebugger.h">
+      <Filter>Header Files\Entity\Restricted Ent</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseEntCom.h">
+      <Filter>Header Files\Entity\Restricted Ent</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseBush.h">
+      <Filter>Header Files\Entity\Physical Ent\CBaseBush</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseMenu.h">
+      <Filter>Header Files\Entity\Physical Ent\CBaseMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseNPC.h">
+      <Filter>Header Files\Entity\Physical Ent\CBaseNPC</Filter>
+    </ClInclude>
+    <ClInclude Include="CLinkCousin.h">
+      <Filter>Header Files\Entity\Physical Ent\CBaseNPC\CLinkCousin</Filter>
+    </ClInclude>
+    <ClInclude Include="CNPCDemo.h">
+      <Filter>Header Files\Entity\Physical Ent\CBaseNPC\CNPCDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="NPCTest.h">
+      <Filter>Header Files\Entity\Physical Ent\CBaseNPC\testNPC</Filter>
+    </ClInclude>
+    <ClInclude Include="CBasePlayer.h">
+      <Filter>Header Files\Entity\Physical Ent\CBasePlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseWater.h">
+      <Filter>Header Files\Entity\Physical Ent\CBaseWater</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseEventTrigger.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="event.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="chk.h">
+      <Filter>Header Files\file formats\CHK</Filter>
+    </ClInclude>
+    <ClInclude Include="DBG.h">
+      <Filter>Header Files\file formats\DBG</Filter>
+    </ClInclude>
+    <ClInclude Include="HED.h">
+      <Filter>Header Files\file formats\HED</Filter>
+    </ClInclude>
+    <ClInclude Include="CLayer.h">
+      <Filter>Header Files\file formats\HMD</Filter>
+    </ClInclude>
+    <ClInclude Include="CLayerX.h">
+      <Filter>Header Files\file formats\HMD</Filter>
+    </ClInclude>
+    <ClInclude Include="entInfo.h">
+      <Filter>Header Files\file formats\HMD</Filter>
+    </ClInclude>
+    <ClInclude Include="HMD.h">
+      <Filter>Header Files\file formats\HMD</Filter>
+    </ClInclude>
+    <ClInclude Include="command.h">
+      <Filter>Header Files\file formats\HS</Filter>
+    </ClInclude>
+    <ClInclude Include="CContentStream.h">
+      <Filter>Header Files\file formats\HMD 3.0</Filter>
+    </ClInclude>
+    <ClInclude Include="CDataStream.h">
+      <Filter>Header Files\file formats\HMD 3.0</Filter>
+    </ClInclude>
+    <ClInclude Include="CEntData3_0.h">
+      <Filter>Header Files\file formats\HMD 3.0</Filter>
+    </ClInclude>
+    <ClInclude Include="CInternal.h">
+      <Filter>Header Files\file formats\HMD 3.0</Filter>
+    </ClInclude>
+    <ClInclude Include="CLayer3_0.h">
+      <Filter>Header Files\file formats\HMD 3.0</Filter>
+    </ClInclude>
+    <ClInclude Include="CMapManager.h">
+      <Filter>Header Files\file formats\HMD 3.0</Filter>
+    </ClInclude>
+    <ClInclude Include="HMD3.0.h">
+      <Filter>Header Files\file formats\HMD 3.0</Filter>
+    </ClInclude>
+    <ClInclude Include="CFileData.h">
+      <Filter>Header Files\file formats\HCF</Filter>
+    </ClInclude>
+    <ClInclude Include="HCF.h">
+      <Filter>Header Files\file formats\HCF</Filter>
+    </ClInclude>
+    <ClInclude Include="FModMain.h">
+      <Filter>Header Files\FMod</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseHitBox.h">
+      <Filter>Header Files\Game Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseTimer.h">
+      <Filter>Header Files\Game Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="CFrameTrigger.h">
+      <Filter>Header Files\Game Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard_defines.h">
+      <Filter>Header Files\Game Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="logic.h">
+      <Filter>Header Files\Game Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeImage.h">
+      <Filter>Header Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="glew.h">
+      <Filter>Header Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="glMain.h">
+      <Filter>Header Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="inputManager.h">
+      <Filter>Header Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite_state.h">
+      <Filter>Header Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="wglew.h">
+      <Filter>Header Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimationX.h">
+      <Filter>Header Files\GL\new stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpriteStateX.h">
+      <Filter>Header Files\GL\new stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpriteX.h">
+      <Filter>Header Files\GL\new stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="CTileSheetX.h">
+      <Filter>Header Files\GL\new stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="HVSTMTH.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="HVSTPHYS.h">
+      <Filter>Header Files\phys</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseTime.h">
+      <Filter>Header Files\time</Filter>
+    </ClInclude>
+    <ClInclude Include="CResources.h">
+      <Filter>Header Files\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollisionTrigger.h">
+      <Filter>Header Files\triggers</Filter>
+    </ClInclude>
+    <ClInclude Include="CCommTrigger.h">
+      <Filter>Header Files\triggers</Filter>
+    </ClInclude>
+    <ClInclude Include="exception.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

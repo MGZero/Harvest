@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="test|Win32">
+      <Configuration>test</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D29D89B5-29E1-46F2-B11A-644F63E51068}</ProjectGuid>
+    <RootNamespace>HVSTCORE</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='test|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='test|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='test|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='test|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='test|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>glu32.lib;opengl32.lib;lib\fmodex_vc.lib;lib\FreeImage.lib;lib\glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>WinMain</EntryPointSymbol>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='test|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>glu32.lib;opengl32.lib;lib\fmodex_vc.lib;lib\FreeImage.lib;lib\glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>WinMain</EntryPointSymbol>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>glu32.lib;opengl32.lib;lib\fmodex_vc.lib;lib\FreeImage.lib;lib\glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>
+      </OptimizeReferences>
+      <EnableCOMDATFolding>
+      </EnableCOMDATFolding>
+      <LinkTimeCodeGeneration>
+      </LinkTimeCodeGeneration>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="global_Objects.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="linkedlist.cpp" />
+    <ClCompile Include="queue.cpp" />
+    <ClCompile Include="physicalent.cpp" />
+    <ClCompile Include="restrictedent.cpp" />
+    <ClCompile Include="theoreticalEnt.cpp" />
+    <ClCompile Include="AI.cpp" />
+    <ClCompile Include="CBaseBush.cpp" />
+    <ClCompile Include="CBaseNPC.cpp" />
+    <ClCompile Include="CLinkCousin.cpp" />
+    <ClCompile Include="CNPCDemo.cpp" />
+    <ClCompile Include="CNPCTest.cpp" />
+    <ClCompile Include="CBasePlayer.cpp" />
+    <ClCompile Include="CBaseWater.cpp" />
+    <ClCompile Include="CBaseCamera.cpp" />
+    <ClCompile Include="CBaseDebugger.cpp" />
+    <ClCompile Include="CBaseEntCom.cpp" />
+    <ClCompile Include="CBaseMapIterator.cpp" />
+    <ClCompile Include="CBaseMapManager.cpp" />
+    <ClCompile Include="CBaseCounter.cpp" />
+    <ClCompile Include="CBaseSound.cpp" />
+    <ClCompile Include="CSFX.cpp" />
+    <ClCompile Include="CLinkedList.cpp" />
+    <ClCompile Include="CTitleScreen.cpp" />
+    <ClCompile Include="CBaseText.cpp" />
+    <ClCompile Include="CBaseTextTrigger.cpp" />
+    <ClCompile Include="CMessage.cpp" />
+    <ClCompile Include="CBaseEventTrigger.cpp" />
+    <ClCompile Include="events.cpp" />
+    <ClCompile Include="chk.cpp" />
+    <ClCompile Include="DBG.cpp" />
+    <ClCompile Include="HED.cpp" />
+    <ClCompile Include="CEntInfo.cpp" />
+    <ClCompile Include="CEntRelation.cpp" />
+    <ClCompile Include="CLayer.cpp" />
+    <ClCompile Include="CLayerX.cpp" />
+    <ClCompile Include="HMD.cpp" />
+    <ClCompile Include="command.cpp" />
+    <ClCompile Include="CContentStream.cpp" />
+    <ClCompile Include="CDataStream.cpp" />
+    <ClCompile Include="CInternal.cpp" />
+    <ClCompile Include="CLayer3_0.cpp" />
+    <ClCompile Include="CMapManager.cpp" />
+    <ClCompile Include="HMD3.0.cpp" />
+    <ClCompile Include="CFileData.cpp" />
+    <ClCompile Include="CHCF.cpp" />
+    <ClCompile Include="fmodMain.cpp" />
+    <ClCompile Include="CBaseHitBox.cpp" />
+    <ClCompile Include="CBaseTimer.cpp" />
+    <ClCompile Include="CFrameTrigger.cpp" />
+    <ClCompile Include="logic.cpp" />
+    <ClCompile Include="glMain.cpp" />
+    <ClCompile Include="inputManager.cpp" />
+    <ClCompile Include="sprite_state.cpp" />
+    <ClCompile Include="CAnimationX.cpp" />
+    <ClCompile Include="CSpriteStateX.cpp" />
+    <ClCompile Include="CSpriteX.cpp" />
+    <ClCompile Include="CTileSheetX.cpp" />
+    <ClCompile Include="HVSTMTH.cpp" />
+    <ClCompile Include="HVSTPHYS.cpp" />
+    <ClCompile Include="CBaseTime.cpp" />
+    <ClCompile Include="CResources.cpp" />
+    <ClCompile Include="CCollisionTrigger.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="global_Objects.h" />
+    <ClInclude Include="dictionary.h" />
+    <ClInclude Include="graph.h" />
+    <ClInclude Include="linkedlist.h" />
+    <ClInclude Include="list.h" />
+    <ClInclude Include="matrix.h" />
+    <ClInclude Include="queue.h" />
+    <ClInclude Include="PhysicalEnt.h" />
+    <ClInclude Include="restrictedent.h" />
+    <ClInclude Include="theoreticalEnt.h" />
+    <ClInclude Include="AI.h" />
+    <ClInclude Include="CBaseCounter.h" />
+    <ClInclude Include="CBaseSound.h" />
+    <ClInclude Include="CSFX.h" />
+    <ClInclude Include="CLinkedList.h" />
+    <ClInclude Include="CTitleScreen.h" />
+    <ClInclude Include="CBaseText.h" />
+    <ClInclude Include="CBaseTextTrigger.h" />
+    <ClInclude Include="CMessage.h" />
+    <ClInclude Include="CBaseMapIterator.h" />
+    <ClInclude Include="CBaseMapManager.h" />
+    <ClInclude Include="CBaseCamera.h" />
+    <ClInclude Include="CBaseDebugger.h" />
+    <ClInclude Include="CBaseEntCom.h" />
+    <ClInclude Include="CBaseBush.h" />
+    <ClInclude Include="CBaseMenu.h" />
+    <ClInclude Include="CBaseNPC.h" />
+    <ClInclude Include="CLinkCousin.h" />
+    <ClInclude Include="CNPCDemo.h" />
+    <ClInclude Include="NPCTest.h" />
+    <ClInclude Include="CBasePlayer.h" />
+    <ClInclude Include="CBaseWater.h" />
+    <ClInclude Include="CBaseEventTrigger.h" />
+    <ClInclude Include="event.h" />
+    <ClInclude Include="chk.h" />
+    <ClInclude Include="DBG.h" />
+    <ClInclude Include="HED.h" />
+    <ClInclude Include="CLayer.h" />
+    <ClInclude Include="CLayerX.h" />
+    <ClInclude Include="entInfo.h" />
+    <ClInclude Include="HMD.h" />
+    <ClInclude Include="command.h" />
+    <ClInclude Include="CContentStream.h" />
+    <ClInclude Include="CDataStream.h" />
+    <ClInclude Include="CEntData3_0.h" />
+    <ClInclude Include="CInternal.h" />
+    <ClInclude Include="CLayer3_0.h" />
+    <ClInclude Include="CMapManager.h" />
+    <ClInclude Include="HMD3.0.h" />
+    <ClInclude Include="CFileData.h" />
+    <ClInclude Include="HCF.h" />
+    <ClInclude Include="FModMain.h" />
+    <ClInclude Include="CBaseHitBox.h" />
+    <ClInclude Include="CBaseTimer.h" />
+    <ClInclude Include="CFrameTrigger.h" />
+    <ClInclude Include="keyboard_defines.h" />
+    <ClInclude Include="logic.h" />
+    <ClInclude Include="FreeImage.h" />
+    <ClInclude Include="glew.h" />
+    <ClInclude Include="glMain.h" />
+    <ClInclude Include="inputManager.h" />
+    <ClInclude Include="sprite_state.h" />
+    <ClInclude Include="wglew.h" />
+    <ClInclude Include="CAnimationX.h" />
+    <ClInclude Include="CSpriteStateX.h" />
+    <ClInclude Include="CSpriteX.h" />
+    <ClInclude Include="CTileSheetX.h" />
+    <ClInclude Include="HVSTMTH.h" />
+    <ClInclude Include="HVSTPHYS.h" />
+    <ClInclude Include="CBaseTime.h" />
+    <ClInclude Include="CResources.h" />
+    <ClInclude Include="CCollisionTrigger.h" />
+    <ClInclude Include="CCommTrigger.h" />
+    <ClInclude Include="exception.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

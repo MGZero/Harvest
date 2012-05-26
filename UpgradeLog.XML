@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="HVSTCORE">
+</Property><Property Name="Solution File" Value="D:\Harvest GIT - Copy\harvest.git\HVSTCORE.sln">
+</Property><Property Name="Date" Value="Monday, May 14, 2012">
+</Property><Property Name="Time" Value="17:51 PM">
+</Property></Properties><Event ErrorLevel="0" Project="HVSTCORE" Source="HVSTCORE\HVSTCORE.vcproj" Description="Converting project file 'D:\Harvest GIT - Copy\harvest.git\HVSTCORE\HVSTCORE.vcproj'.">
+</Event><Event ErrorLevel="1" Project="HVSTCORE" Source="HVSTCORE\HVSTCORE.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="HVSTCORE" Source="HVSTCORE\HVSTCORE.vcproj" Description="Done converting to new project file 'D:\Harvest GIT - Copy\harvest.git\HVSTCORE\HVSTCORE.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="HVSTCORE" Source="HVSTCORE\HVSTCORE.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="HVSTCORE.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="HVSTCORE.sln" Description="Converted">
+</Event></UpgradeLog>

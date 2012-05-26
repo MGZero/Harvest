@@ -1,0 +1,32 @@
+*Begin Header*
+PAKID = HVST84838672
+GAMEID
+*End Header*
+
+*Begin Central Directory*
+Maps
+offset
+...
+Sprites
+offset
+...
+Tilesets
+offset
+...
+SFX
+offset
+...
+Music
+offset
+...
+*End Central Directory*
+
+*Begin Data Mine*
+-Local Header-
+fileName
+fileSize
+fileType
+-End header-
+fileData
+...
+*End Data Mine*

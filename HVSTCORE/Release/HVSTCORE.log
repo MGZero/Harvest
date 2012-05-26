@@ -1,0 +1,98 @@
+﻿Build started 5/26/2012 1:18:45 PM.
+     1>Project "D:\Harvest GIT - Copy\harvest.git\HVSTCORE\HVSTCORE.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\HVSTCORE.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         G:\Programs\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\harvest git - copy\harvest.git\hvstcore\CLayer3_0.h(14): warning C4005: 'SCALEX_1' : macro redefinition
+                 d:\harvest git - copy\harvest.git\hvstcore\CSpriteX.h(11) : see previous definition of 'SCALEX_1'
+     1>d:\harvest git - copy\harvest.git\hvstcore\CLayer3_0.h(25): warning C4005: 'SCALEY_1' : macro redefinition
+                 d:\harvest git - copy\harvest.git\hvstcore\CSpriteX.h(22) : see previous definition of 'SCALEY_1'
+     1>d:\harvest git - copy\harvest.git\hvstcore\glMain.h(46): warning C4005: 'WIDTHSCALE' : macro redefinition
+                 d:\harvest git - copy\harvest.git\hvstcore\CSpriteX.h(33) : see previous definition of 'WIDTHSCALE'
+     1>d:\harvest git - copy\harvest.git\hvstcore\glMain.h(47): warning C4005: 'HEIGHTSCALE' : macro redefinition
+                 d:\harvest git - copy\harvest.git\hvstcore\CSpriteX.h(34) : see previous definition of 'HEIGHTSCALE'
+       Link:
+         G:\Programs\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Harvest GIT - Copy\harvest.git\Release\HVSTCORE.exe" /INCREMENTAL:NO /NOLOGO glu32.lib opengl32.lib lib\fmodex_vc.lib lib\FreeImage.lib lib\glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\HVSTCORE.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Harvest GIT - Copy\harvest.git\Release\HVSTCORE.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Harvest GIT - Copy\harvest.git\Release\HVSTCORE.lib" /MACHINE:X86 Release\global_Objects.obj
+         Release\main.obj
+         Release\linkedlist.obj
+         Release\queue.obj
+         Release\physicalent.obj
+         Release\restrictedent.obj
+         Release\theoreticalEnt.obj
+         Release\AI.obj
+         Release\CBaseBush.obj
+         Release\CBaseNPC.obj
+         Release\CLinkCousin.obj
+         Release\CNPCDemo.obj
+         Release\CNPCTest.obj
+         Release\CBasePlayer.obj
+         Release\CBaseWater.obj
+         Release\CBaseCamera.obj
+         Release\CBaseDebugger.obj
+         Release\CBaseEntCom.obj
+         Release\CBaseMapIterator.obj
+         Release\CBaseMapManager.obj
+         Release\CBaseCounter.obj
+         Release\CBaseSound.obj
+         Release\CSFX.obj
+         Release\CLinkedList.obj
+         Release\CTitleScreen.obj
+         Release\CBaseText.obj
+         Release\CBaseTextTrigger.obj
+         Release\CMessage.obj
+         Release\CBaseEventTrigger.obj
+         Release\events.obj
+         Release\chk.obj
+         Release\DBG.obj
+         Release\HED.obj
+         Release\CEntInfo.obj
+         Release\CEntRelation.obj
+         Release\CLayer.obj
+         Release\CLayerX.obj
+         Release\HMD.obj
+         Release\command.obj
+         Release\CContentStream.obj
+         Release\CDataStream.obj
+         Release\CInternal.obj
+         Release\CLayer3_0.obj
+         Release\CMapManager.obj
+         Release\HMD3.0.obj
+         Release\CFileData.obj
+         Release\CHCF.obj
+         Release\fmodMain.obj
+         Release\CBaseHitBox.obj
+         Release\CBaseTimer.obj
+         Release\CFrameTrigger.obj
+         Release\logic.obj
+         Release\glMain.obj
+         Release\inputManager.obj
+         Release\sprite_state.obj
+         Release\CAnimationX.obj
+         Release\CSpriteStateX.obj
+         Release\CSpriteX.obj
+         Release\CTileSheetX.obj
+         Release\HVSTMTH.obj
+         Release\HVSTPHYS.obj
+         Release\CBaseTime.obj
+         Release\CResources.obj
+         Release\CCollisionTrigger.obj
+         global_Objects.obj : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+         Generating code
+     1>d:\harvest git - copy\harvest.git\hvstcore\linkedlist.cpp(181): warning C4715: 'LinkedList::retrieveSequential' : not all control paths return a value
+     1>d:\harvest git - copy\harvest.git\hvstcore\linkedlist.cpp(136): warning C4715: 'LinkedList::retrieve' : not all control paths return a value
+     1>d:\harvest git - copy\harvest.git\hvstcore\hmd.cpp(35): warning C4715: 'HMDFunc::createEnt' : not all control paths return a value
+     1>d:\harvest git - copy\harvest.git\hvstcore\hmd.cpp(134): warning C4700: uninitialized local variable 'tempHB' used
+         Finished generating code
+         HVSTCORE.vcxproj -> D:\Harvest GIT - Copy\harvest.git\Release\HVSTCORE.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Harvest GIT - Copy\harvest.git\Release\HVSTCORE.exe;#1" /manifest Release\HVSTCORE.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\HVSTCORE.unsuccessfulbuild".
+         Touching "Release\HVSTCORE.lastbuildstate".
+     1>Done Building Project "D:\Harvest GIT - Copy\harvest.git\HVSTCORE\HVSTCORE.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.82

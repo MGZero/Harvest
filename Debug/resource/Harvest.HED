@@ -1,0 +1,28 @@
+//Harvest Standard HED
+//For use with all games
+//Include this within the map editor and engine by default
+
+//entities are defined by their their name, className, and ID number
+ent_0 player CBasePlayer
+{
+	//first thing to include is the entity's events.  By default, each entity has a standard set.  Specify the eventssection like so:
+	=Events:
+	//here you put the events that YOU create.  Default events are build into the entity automatically.  To add an event, do something like this:
+		ev_kaboom
+	=End_Events
+
+	//next is the sprite to be used by the map editor.  Please stick with the png format
+	//The Engine Reader should skip this part
+	=Sprite:
+		mapResources/sprites/player.png
+
+	//any additional parameters the entity needs, for example, a sound entity needs to have a sound to emit.  Declare them like so:
+	//The engine should know the data types, but the editor does not need to
+	=Params:
+		file sound
+		int apples
+	=End_Params
+
+}
+
+

@@ -1,0 +1,24 @@
+//HMD 3.0 Sample file
+//Begin Header
+HMD3.0
+Map_0
+//end header
+
+//begin content stream
+Game_0
+tlst_Forest01
+bgm_Forest01
+//end content stream
+
+//begin Data Stream
+Layers: 1
+Tiles[2500], 
+Entity[].ID, Entity[].Name, Entity[].x, Entity[].y, Entity[].param0, Entity[].paramN
+Hitbox[].x, Hitbox[].y, Hitbox[].width, Hitbox[].Height
+//end Data Stream
+
+//begin chunk graph
+//node IDs are enumurated starting at 0
+map_ForestRoom1, x, y, layer
+map_ForestRoom2, x, y, layer
+//end chunk graph 

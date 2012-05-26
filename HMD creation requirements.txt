@@ -1,0 +1,31 @@
+Map creation requirements
+
+1. The state of an entity must not change in any part of a cycle except in the finalization section.
+2. The draw section of a cycle must occur at the start of the cycle.
+3. The update section of a cycle must occur second.
+4. The finalization section of a cycle must occur third/last.
+5. Clean up shall occur during the finalization section.
+6. No function other than those in the clean up shall remove entities or hitboxes from their respective std::vector.
+7. An entity/hitbox shall be removed from the map iff its pointer is null.
+8. All entities present in the cycle at the start of the cycle must run their draw() and live() functions.
+9. All hitboxes present in the cycle at the start of the cycle must be checked for collision.
+10. An entity/hitbox may be switched from layer to layer.  This must follow rule # 6.
+
+
+Use Case:
+
+1. Draw Cycle
+   Draw All Layers
+      Draw all Entities
+      Draw all Tiles
+
+2. Update Cycle
+   Trigger global events
+   Run entity live() method
+   Check for collisions 
+
+3. Finalization Cycle
+   Update all map data based on changes in update cycle
+   Cleanup
+      Swap entities to different layers if needed
+      Remove null hitboxes and entities
